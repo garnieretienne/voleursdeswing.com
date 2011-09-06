@@ -66,20 +66,130 @@ td { vertical-align: top; }
    Author: 
    ========================================================================== */
 
+body {
+  background-color: #000916;
+}
 
+#container {
+  width: 90%;
+  margin: 0 auto;
+  background-image: url('../img/background.png');
+  background-repeat: repeat;
+  color: white;
+}
 
+header {
+  text-align: center;
+}
 
+footer {
+  height: 206px;
+  background-image: url('../img/footer.png');
+  background-repeat: repeat-x;
+  background-position: bottom;
+  text-align: center;
+}
 
+.video-container {
+  position: relative;
+  padding-bottom: 52%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
 
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
+.message {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  font-size: 2em;
+}
 
+.cut {
+  width: 70%;
+  margin: 3em auto;
+  height: 3px;
+  background-image: url('../img/cut_background.png');
+  background-repeat: repeat-x;
+}
 
+#top_media {
+  width: 50%;
+  margin: auto;
+}
 
+#top_media .message {
+  margin-top: 2em;
+}
 
+#top_media_arrow {
+  position: absolute;
+  margin-left: -90px;
+  margin-top: -70px;
+}
 
+#music_media {
+  width: 70%;
+  margin: 0 auto;
+}
 
+#last_cd {
+  position: relative;
+  width: 40%;
+  float: left;
+}
 
+#last_cd_background {
+  position: absolute;
+  display: block;
+  top: 0px;
+  margin-top: -20px;
+  margin-left: -80px;
+}
 
+#cd_cover {
+  display: block;
+  position: absolute;
+  margin-top: 40px;
+}
+
+#buy_online {
+  margin-left: 40%;
+  width: 60%;
+}
+
+#buy_online img {
+  display: block;
+}
+
+#buy_online_background {
+  margin: 0 auto;
+}
+
+#buy_online_arrow {
+  position: absolute;
+  margin-top: 40px;
+}
+
+#logo_cloud {
+  position: relative;
+  background-color: white;
+}
+
+#logo_fnac {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
 
 /* ==|== non-semantic helper classes ======================================== */
 .ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
