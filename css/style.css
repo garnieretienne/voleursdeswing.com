@@ -70,8 +70,27 @@ body {
   background-color: #000916;
 }
 
+img {
+  max-width: 100%;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 #container {
   width: 90%;
+  border-left: 1px solid #56737c;
+  border-right: 1px solid #56737c;
   margin: 0 auto;
   background-image: url('../img/background.png');
   background-repeat: repeat;
@@ -83,6 +102,7 @@ header {
 }
 
 footer {
+  margin-top: 5em;
   height: 206px;
   background-image: url('../img/footer.png');
   background-repeat: repeat-x;
@@ -181,14 +201,76 @@ footer {
 }
 
 #logo_cloud {
+  width: 388px; /* background picture max width */
+  margin: 0 auto;
   position: relative;
-  background-color: white;
 }
 
 #logo_fnac {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 73px;
+  left: 65px;
+}
+
+#logo_itune {
+  position: absolute;
+  top: 50px;
+  left: 170px;
+}
+
+#logo_amazon {
+  position: absolute;
+  top: 120px;
+  left: 170px;
+}
+
+#videos_media {
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.gallery {
+  width: 40%;
+  float: left;
+  margin : 2em 5%;
+}
+
+#video_gallery_arrow {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+#socials_networks {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#social_network_arrow {
+  position: absolute;
+  margin-left: -50px;
+  margin-top: 20px;
+}
+
+#link_facebook,
+#link_myspace,
+#link_mail {
+  margin: 2em 20px;
+}
+
+#message_mail {
+  text-align: right;
+}
+
+#mail_arrow {
+  position: absolute;
+  margin-left: -100px;
+}
+
+.friend {
+  text-transform: uppercase;
 }
 
 /* ==|== non-semantic helper classes ======================================== */
