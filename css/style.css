@@ -274,6 +274,10 @@ footer {
   text-transform: uppercase;
 }
 
+.link {
+  font-size: 0.8em;
+}
+
 /* ==|== non-semantic helper classes ======================================== */
 .ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; }
 .ir br { display: none; }
