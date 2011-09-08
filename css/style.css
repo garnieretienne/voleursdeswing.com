@@ -299,11 +299,12 @@ footer {
 @media only screen and (max-width: 1200px) {
   #container {
     width: 100%;
+    border: 0px;
   }
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
   #top_media {
     width: 80%;
   }
