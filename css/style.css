@@ -70,6 +70,13 @@ body {
   background-color: #000916;
 }
 
+#loading {
+  display: block;
+  margin: auto;
+  position: relative;
+  margin-top: 50px;
+}
+
 img {
   max-width: 100%;
 }
@@ -88,6 +95,7 @@ a:hover {
 }
 
 #container {
+  display: none;
   width: 60%;
   border-left: 1px solid #56737c;
   border-right: 1px solid #56737c;
