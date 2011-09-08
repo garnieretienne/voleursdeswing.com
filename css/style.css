@@ -259,8 +259,8 @@ footer {
 
 #social_network_arrow {
   position: absolute;
-  margin-left: -50px;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-left: -150px;
 }
 
 #link_youtube,
@@ -272,11 +272,6 @@ footer {
 
 #message_mail {
   text-align: right;
-}
-
-#mail_arrow {
-  position: absolute;
-  margin-left: -100px;
 }
 
 .friend {
