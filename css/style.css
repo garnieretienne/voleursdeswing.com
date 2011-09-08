@@ -325,6 +325,30 @@ footer {
   }
 }
 
+@media only screen and (max-width: 480px) {
+  #top_media_arrow {
+    display: none;
+  }
+
+  #music_media {
+    display: none;
+  }
+
+  #music_cut {
+    display: none;
+  }
+
+  #videos_media {
+    margin-top: 8em;
+  }
+
+  .gallery {
+    width: 100%;
+    float: none;
+    margin: 1em 0;
+  }
+}
+
 
 
 /* ==|== print styles ======================================================= */
