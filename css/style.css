@@ -88,7 +88,7 @@ a:hover {
 }
 
 #container {
-  width: 90%;
+  width: 60%;
   border-left: 1px solid #56737c;
   border-right: 1px solid #56737c;
   margin: 0 auto;
@@ -131,11 +131,11 @@ footer {
 .message {
   font-family: 'Shadows Into Light', cursive;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .cut {
-  width: 70%;
+  width: 80%;
   margin: 3em auto;
   height: 3px;
   background-image: url('../img/cut_background.png');
@@ -143,7 +143,7 @@ footer {
 }
 
 #top_media {
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 
@@ -164,7 +164,7 @@ footer {
 
 #last_cd {
   position: relative;
-  width: 40%;
+  width: 30%;
   float: left;
 }
 
@@ -183,8 +183,8 @@ footer {
 }
 
 #buy_online {
-  margin-left: 40%;
-  width: 60%;
+  margin-left: 45%;
+  width: 50%;
 }
 
 #buy_online img {
@@ -212,7 +212,7 @@ footer {
   left: 65px;
 }
 
-#logo_itune {
+#logo_7digital {
   position: absolute;
   top: 50px;
   left: 170px;
@@ -225,15 +225,15 @@ footer {
 }
 
 #videos_media {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   overflow: hidden;
 }
 
 .gallery {
-  width: 40%;
+  width: 48%;
   float: left;
-  margin : 2em 5%;
+  margin: 1%;
 }
 
 #video_gallery_arrow {
@@ -254,6 +254,7 @@ footer {
   margin-top: 20px;
 }
 
+#link_youtube,
 #link_facebook,
 #link_myspace,
 #link_mail {
