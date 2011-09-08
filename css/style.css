@@ -329,6 +329,10 @@ footer {
 }
 
 @media only screen and (max-width: 480px) {
+  .message {
+    font-size: 1em;
+  }
+
   #top_media_arrow {
     display: none;
   }
