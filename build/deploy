@@ -1,0 +1,7 @@
+#!/bin/bash
+# Deploy the last built version on production
+
+$server=luke.blcdn.net
+
+cd ../publish
+scp -r ./ $server:/var/www/voleursdeswing.com/www/
