@@ -116,6 +116,8 @@ footer {
   background-repeat: repeat-x;
   background-position: bottom;
   text-align: center;
+  font-size: 0.8em;
+  color: #696969;
 }
 
 .video-container {
