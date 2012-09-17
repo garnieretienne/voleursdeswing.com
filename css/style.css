@@ -68,6 +68,9 @@ td { vertical-align: top; }
 
 body {
   background-color: #000916;
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  font-size: 1.2em;
 }
 
 #loading {
@@ -140,9 +143,7 @@ footer {
 }
 
 .message {
-  font-family: 'Shadows Into Light', cursive;
   text-align: center;
-  font-size: 1.5em;
 }
 
 .cut {
